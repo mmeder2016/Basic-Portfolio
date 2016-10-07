@@ -11,6 +11,9 @@
 h2, h3, h4 {
 	font-family: Georgia, Times, "Times New Roman", serif;
 }
+h3 {
+	color: #4aaaa5;
+}
 h2 {
 	height: 60;
 	width: 120;
@@ -49,38 +52,64 @@ p {
 	background-color: #ddd;
 	margin: auto;
 	overflow: auto;
-	border: solid 1px black;/*remove later*/
 }
 body {
 	font-size: 16px;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-color: #777777;
 	text-align: center;
-
 }
 aside {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+aside > input, aside > textarea {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.submit-button {
+	height: 40px;
+	width: 120px;
+	background: #4aaaa5;
+	color: #fff;
+}
+
+/*CONTENT THAT FLOATS LEFT*/
 .me_description {
-	border: 1px solid red; /*remove later*/
 	float: left;
 	padding: 25px;
 	width: 650px;
 	background-color: #ffffff;
+	text-align: left;
 }
+.portfolio {
+	float: left;
+	padding: 25px;
+	width: 650px;
+	background-color: #ffffff;
+	text-align: left;
+}
+.contact {
+	float: left;
+	padding: 25px;
+	width: 650px;
+	background-color: #ffffff;
+	text-align: left;
+}
+/*CONTENT THAT FLOATS RIGHT*/
 .connection-links {
-	border: 1px solid red; /*remove later*/
 	float: right;
 	width: 25%;
 	background-color: #ffffff;
 }
-.portfolio {
-	border: 1px solid red; /*remove later*/
-	float: left;
-	padding: 25px;
-	width: 650px;
-	background-color: #ffffff;
+.hr-width-connect {
+	width: 80%;
+}
+.link-images {
+	width: 60px;
+	height: 50px;
+	border: 0px;
+	padding: 0px 5px 0px 5px;
 }
 /*FOOTER AREA*/
 footer {
