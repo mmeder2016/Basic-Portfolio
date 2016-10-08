@@ -42,8 +42,11 @@ a:link {
 	color: #777777; 
 } 
 a:visited { 
-	/*color: blue; */
-	color: #777777;
+	color: blue;
+	/*color: #777777;*/
+}
+a:hover { 
+	color: red; 
 }
 /*CONTENT AREA ALL PAGES*/
 .div-content-bgrnd-color {
